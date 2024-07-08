@@ -75,8 +75,8 @@ function DedicationContextCard() {
 }
 
 function QualityContextCard() {
-    const title = `敬业精神Netlify Context: running in ${ctx} mode.`;
-    return <Card title={title} text="150 年来我们一直致力于服务客户。我们拥有跨越 5 代人的行业知识。不知道从哪里开始？请致电我们，我们将为您提供帮助。Next.js will rebuild any page you navigate to, including static pages." />;
+    const title = `质量保证`;
+    return <Card title={title} text="花岗岩是一种优质材料，因其耐用性和复杂的图案而被选中。我们采购了最优质的花岗岩来帮助纪念您的家族历史。" />;
 }
 
 
