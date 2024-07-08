@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import netlifyLogo from 'public/main_logo-left.png';
-import githubLogo from 'public/main_logo-left.png';
+import githubLogo from 'public/main_logo-right.png';
 
 const navItems = [
     { linkText: 'Home', href: '/' },
