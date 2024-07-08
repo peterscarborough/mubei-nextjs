@@ -32,13 +32,13 @@ export default function Page() {
         <main className="flex flex-col gap-8 sm:gap-16">
             <section className="flex flex-col items-start gap-3 sm:gap-4">
                 <ContextAlert />
-                <h1 className="mb-0">Netlify Platform Starter - Next.js</h1>
-                <p className="text-lg">Get started with Next.js and Netlify in seconds.</p>
+                <h1 className="mb-0">Sanderson Monument 安省最大石碑厂</h1>
+                <p className="text-lg">服务加拿大社区一百五十二年 值得信赖</p>
                 <Link
-                    href="https://docs.netlify.com/frameworks/next-js/overview/"
+                    href="https://sandersonmonument.ca/"
                     className="btn btn-lg btn-primary sm:btn-wide"
                 >
-                    Read the Docs
+                    公司英文网站
                 </Link>
             </section>
             {!!ctx && (
