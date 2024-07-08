@@ -13,7 +13,10 @@ const contextExplainer = `
 The card below is rendered on the server based on the value of \`process.env.CONTEXT\` 
 ([docs](https://docs.netlify.com/configure-builds/environment-variables/#build-metadata)):
 `;
-
+const choiceExplainer = `
+为什么选择我们
+我们承诺为您的家人提供最好的客户服务和采用最优质花岗岩制成的最高品质纪念碑。
+`;
 const preDynamicContentExplainer = `
 The card content below is fetched by the client-side from \`/quotes/random\` (see file \`app/quotes/random/route.js\`) with a different quote shown on each page load:
 `;
@@ -65,3 +68,16 @@ function RuntimeContextCard() {
         return <Card title={title} text="This page was statically-generated at build time." />;
     }
 }
+
+function DedicationContextCard() {
+    const title = `敬业精神Netlify Context: running in ${ctx} mode.`;
+    return <Card title={title} text="150 年来我们一直致力于服务客户。我们拥有跨越 5 代人的行业知识。不知道从哪里开始？请致电我们，我们将为您提供帮助。Next.js will rebuild any page you navigate to, including static pages." />;
+}
+
+function QualityContextCard() {
+    const title = `敬业精神Netlify Context: running in ${ctx} mode.`;
+    return <Card title={title} text="150 年来我们一直致力于服务客户。我们拥有跨越 5 代人的行业知识。不知道从哪里开始？请致电我们，我们将为您提供帮助。Next.js will rebuild any page you navigate to, including static pages." />;
+}
+
+
+
