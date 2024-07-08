@@ -4,9 +4,9 @@ import netlifyLogo from 'public/main_logo-left.png';
 import githubLogo from 'public/main_logo-right.png';
 
 const navItems = [
-    { linkText: 'Home', href: '/' },
-    { linkText: 'Revalidation', href: '/revalidation' },
-    { linkText: 'Image CDN', href: '/image-cdn' },
+    { linkText: '主页', href: '/' },
+    { linkText: '选购指南', href: '/revalidation' },
+    { linkText: '特价优惠', href: '/image-cdn' },
    
    
 ];
