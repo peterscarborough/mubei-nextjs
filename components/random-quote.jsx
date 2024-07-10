@@ -32,7 +32,7 @@ export function RandomQuote() {
                         <h3 className="text-xl text-neutral-900 font-bold">&ldquo;{quote.text}&rdquo;</h3>
                         <p>
                             {' '}
-                            - {quote.playedBy} as {quote.character} in &ldquo;{quote.film}&rdquo; ({quote.year})
+                            - {quote.playedBy} commented &ldquo;{quote.film}&rdquo; ({quote.year})
                         </p>
                         <p className="pt-2.5 mt-2.5 border-t border-dashed text-secondary border-neutral-200">
                             <span className="text-sm italic">
