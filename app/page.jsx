@@ -51,6 +51,10 @@ export default function Page() {
                 </section>
             )}
             <section className="flex flex-col gap-4">
+                <Markdown content={choiceExplainer} />
+                <DedicationContextCard />
+            </section>
+            <section className="flex flex-col gap-4">
                 <Markdown content={preDynamicContentExplainer} />
                 <RandomQuote />
                 <Markdown content={postDynamicContentExplainer} />
