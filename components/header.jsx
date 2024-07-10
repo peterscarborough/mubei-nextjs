@@ -5,8 +5,8 @@ import githubLogo from 'public/main_logo-right.png';
 
 const navItems = [
     { linkText: '主页', href: '/' },
-    { linkText: '选购指南', href: '/revalidation' },
-    { linkText: '特价优惠', href: '/image-cdn' },
+    { linkText: '选购指南', href: '/' },
+    { linkText: '特价优惠', href: '/' },
    
    
 ];
