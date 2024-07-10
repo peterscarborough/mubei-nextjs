@@ -24,7 +24,7 @@ const postDynamicContentExplainer = `
 我们秉承耐心友善的态度帮助您，让您在没有压力的环境选择石碑。我们亦提供多种服务，例如墓碑刻字、清洁、修复、墓地管理和墓地维护。
 `;
 
-const postDynamicContentExplainer = `
+const madeContentExplainer = `
 \`石碑制作流程\`
 ([链接](https://sandersonmonument.ca/2022/02/14/how-its-made/))
 `;
@@ -75,6 +75,13 @@ export default function Page() {
                 <RandomQuote />
                 <Markdown content={postDynamicContentExplainer} />
             </section>
+
+            <section className="flex flex-col gap-4">
+                <Markdown content={madeContentExplainer} />
+
+            </section>
+
+            
             {/* !!cards?.length && <CardsGrid cards={cards} /> */}
         </main>
     );
