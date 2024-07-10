@@ -24,6 +24,11 @@ const postDynamicContentExplainer = `
 我们秉承耐心友善的态度帮助您，让您在没有压力的环境选择石碑。我们亦提供多种服务，例如墓碑刻字、清洁、修复、墓地管理和墓地维护。
 `;
 
+const postDynamicContentExplainer = `
+\`石碑制作流程\`
+([链接](https://sandersonmonument.ca/2022/02/14/how-its-made/))
+`;
+
 const ctx = getNetlifyContext();
 
 export default function Page() {
