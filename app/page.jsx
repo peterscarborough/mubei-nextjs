@@ -10,8 +10,8 @@ const cards = [
 ];
 
 const contextExplainer = `
-The card below is rendered on the server based on the value of \`process.env.CONTEXT\` 
-([docs](https://docs.netlify.com/configure-builds/environment-variables/#build-metadata)):
+全省多地十个销售展厅，多人专业设计团队，严格符合环保和安全标准的现代化厂房。\`展厅地址列表\` 
+([链接](https://sandersonmonument.ca/contact/)):
 `;
 const choiceExplainer = `
 我们承诺为您的家人提供最好的客户服务和采用最优质花岗岩制成的最高品质纪念碑。
