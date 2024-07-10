@@ -14,7 +14,6 @@ The card below is rendered on the server based on the value of \`process.env.CON
 ([docs](https://docs.netlify.com/configure-builds/environment-variables/#build-metadata)):
 `;
 const choiceExplainer = `
-为什么选择我们
 我们承诺为您的家人提供最好的客户服务和采用最优质花岗岩制成的最高品质纪念碑。
 `;
 const preDynamicContentExplainer = `
@@ -50,10 +49,17 @@ export default function Page() {
                     <RuntimeContextCard />
                 </section>
             )}
+            
             <section className="flex flex-col gap-4">
                 <Markdown content={choiceExplainer} />
                 <DedicationContextCard />
             </section>
+
+            <section className="flex flex-col gap-4">
+                <QualityContextCard />
+            </section>
+
+            
             <section className="flex flex-col gap-4">
                 <Markdown content={preDynamicContentExplainer} />
                 <RandomQuote />
@@ -74,8 +80,8 @@ function RuntimeContextCard() {
 }
 
 function DedicationContextCard() {
-    const title = `敬业精神Netlify Context: running in ${ctx} mode.`;
-    return <Card title={title} text="150 年来我们一直致力于服务客户。我们拥有跨越 5 代人的行业知识。不知道从哪里开始？请致电我们，我们将为您提供帮助。Next.js will rebuild any page you navigate to, including static pages." />;
+    const title = `敬业精神`;
+    return <Card title={title} text="150 年来我们一直致力于服务客户。我们拥有跨越 5 代人的行业知识。不知道从哪里开始？请致电我们，我们将为您提供帮助。" />;
 }
 
 function QualityContextCard() {
