@@ -17,14 +17,11 @@ const choiceExplainer = `
 我们承诺为您的家人提供最好的客户服务和采用最优质花岗岩制成的最高品质纪念碑。
 `;
 const preDynamicContentExplainer = `
-The card content below is fetched by the client-side from \`/quotes/random\` (see file \`app/quotes/random/route.js\`) with a different quote shown on each page load:
+客户好评
 `;
 
 const postDynamicContentExplainer = `
-On Netlify, Next.js Route Handlers are automatically deployed as [Serverless Functions](https://docs.netlify.com/functions/overview/).
-Alternatively, you can add Serverless Functions to any site regardless of framework, with acccess to the [full context data](https://docs.netlify.com/functions/api/).
-
-And as always with dynamic content, beware of layout shifts & flicker! (here, we aren't...)
+我们秉承耐心友善的态度帮助您，让您在没有压力的环境选择石碑。我们亦提供多种服务，例如墓碑刻字、清洁、修复、墓地管理和墓地维护。
 `;
 
 const ctx = getNetlifyContext();
