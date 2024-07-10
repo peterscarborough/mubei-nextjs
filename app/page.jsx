@@ -58,6 +58,14 @@ export default function Page() {
             <section className="flex flex-col gap-4">
                 <QualityContextCard />
             </section>
+            
+            <section className="flex flex-col gap-4">
+                <CraftsmanshipContextCard />
+            </section>
+            
+            <section className="flex flex-col gap-4">
+                <GuaranteeContextCard />
+            </section>
 
             
             <section className="flex flex-col gap-4">
@@ -85,9 +93,20 @@ function DedicationContextCard() {
 }
 
 function QualityContextCard() {
-    const title = `质量保证`;
+    const title = `质量卓越`;
     return <Card title={title} text="花岗岩是一种优质材料，因其耐用性和复杂的图案而被选中。我们采购了最优质的花岗岩来帮助纪念您的家族历史。" />;
 }
+
+function CraftsmanshipContextCard() {
+    const title = `工艺精良`;
+    return <Card title={title} text="技巧、风格和精致的细节都是我们在工厂生产的每件作品中所体现的品质。从布局到生产和交付，我们努力打造最好的纪念碑。" />;
+}
+
+function GuaranteeContextCard() {
+    const title = `终身保用`;
+    return <Card title={title} text="我们保证您的纪念碑所用的花岗岩不会出现裂缝或缺陷，并且将在很长一段时间内成为您所爱之人的美丽纪念。" />;
+}
+
 
 
 
